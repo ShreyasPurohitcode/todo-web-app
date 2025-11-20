@@ -1,79 +1,84 @@
-# Terraform + React on GCP Demo 🚀
-
-A simple demonstration project that deploys a **React** application to **Google Cloud Platform (GCP)** using **Terraform**.
-
-The architecture uses a **Google Cloud Storage (GCS)** bucket configured as a static website to host the React application. This is a cost-effective and high-performance pattern for hosting Single Page Applications (SPAs).
-
-## 📂 Project Structure
-
-- `react-app/`: The frontend React application (created with Vite).
-- `main.tf`: Terraform configuration for GCP resources (Storage Bucket, IAM).
-- `variables.tf`: Input variables for Terraform.
-- `outputs.tf`: Output values (e.g., the website URL).
-
-## 🛠 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- **[Node.js](https://nodejs.org/)** (v20+)
-- **[Terraform](https://www.terraform.io/)** (v1.0+)
-- **[Google Cloud SDK](https://cloud.google.com/sdk/docs/install)** (gcloud)
 # Professional Task Manager
 
 A clean, professional to-do list application built with React and Vite.
 
-## Features
+![Screenshot](screenshot.png)
+
+## ✨ Features
 
 - ✅ Add, complete, and delete tasks
-- � Auto-save to localStorage (tasks persist across sessions)
+- 💾 Auto-save to localStorage (tasks persist across sessions)
 - 📊 Real-time completion counter
 - 🎨 Professional, corporate design
 - 📱 Fully responsive layout
 
-## Tech Stack
+## 🚀 Tech Stack
 
 - **React 19** - Modern React with hooks
 - **Vite** - Fast build tool and dev server
 - **CSS3** - Clean, professional styling
 - **localStorage** - Client-side data persistence
 
-## Running Locally
+## 🏃 Running Locally
 
-1. Navigate to the react-app directory:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ShreyasPurohitcode/todo-web-app.git
+   cd todo-web-app
+   ```
+
+2. **Navigate to the react-app directory:**
    ```bash
    cd react-app
    ```
 
-2. Install dependencies:
+3. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. Start the development server:
+4. **Start the development server:**
    ```bash
    npm run dev
    ```
 
-4. Open your browser to `http://localhost:5173`
+5. **Open your browser to:** `http://localhost:5173`
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-react-app/
-├── src/
-│   ├── App.jsx          # Main component with task logic
-│   ├── App.css          # Professional styling
-│   ├── index.css        # Global styles
-│   └── main.jsx         # Entry point
-├── index.html
-└── package.json
+todo-web-app/
+├── react-app/
+│   ├── src/
+│   │   ├── App.jsx          # Main component with task logic
+│   │   ├── App.css          # Professional styling
+│   │   ├── index.css        # Global styles
+│   │   └── main.jsx         # Entry point
+│   ├── index.html
+│   └── package.json
+└── README.md
 ```
 
-## Design
+## 🎨 Design
 
 The app features a clean, professional design with:
 - White card on purple gradient background
 - Subtle animations and transitions
-- Professional blue color scheme
+- Professional blue color scheme (#667eea)
 - Clean typography with proper spacing
 - Responsive design for all screen sizes
+
+## 📝 How It Works
+
+- **Add tasks:** Type in the input field and click "Add" or press Enter
+- **Complete tasks:** Click the checkbox to mark tasks as done
+- **Delete tasks:** Click the delete button on any task
+- **Persistent storage:** All tasks are automatically saved to localStorage
+
+## 📄 License
+
+MIT License - feel free to use this project for learning or your portfolio!
+
+---
+
+Made with ❤️ using React + Vite

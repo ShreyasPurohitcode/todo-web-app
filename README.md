@@ -17,7 +17,7 @@ This project showcases:
 - 🎨 Professional, corporate design
 - 📱 Fully responsive layout
 
-## �️ Tech Stack
+## 🛠 Tech Stack
 
 **Frontend:**
 - React 19 with hooks
@@ -188,13 +188,13 @@ The app features a clean, professional corporate design:
 - Professional blue accent color (#667eea)
 - Responsive for all screen sizes
 
-## � Security Notes
+## 🔒 Security Notes
 
 - The GCS bucket is publicly accessible (required for static hosting)
 - No sensitive data should be stored in the app (uses only local storage)
 - Configure appropriate IAM policies for production use
 
-## � License
+## 📝 License
 
 MIT License - free to use for learning and portfolio projects!
 

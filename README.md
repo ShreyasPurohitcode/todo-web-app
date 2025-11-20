@@ -1,11 +1,11 @@
-# Task Manager - React + Terraform on GCP
+# Todo App - React + Terraform on GCP
 
-A professional task manager application built with React, demonstrating infrastructure-as-code deployment to Google Cloud Platform using Terraform.
+A professional todo list application built with React, demonstrating infrastructure-as-code deployment to Google Cloud Platform using Terraform.
 
 ## 🎯 Project Overview
 
 This project showcases:
-- **Frontend**: Modern React task manager with localStorage persistence
+- **Frontend**: Modern React todo app with localStorage persistence
 - **Infrastructure**: Automated deployment to GCP using Terraform
 - **Hosting**: Static website hosting on Google Cloud Storage
 
